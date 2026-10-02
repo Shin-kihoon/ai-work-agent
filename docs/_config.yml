@@ -1,0 +1,5 @@
+title: 학사나침반
+description: 공개 학사·행정 자료 기반 RAG 질의응답 에이전트 — 선행연구와 설계 뼈대
+theme: jekyll-theme-cayman
+lang: ko
+exclude: [backend, schemas, eval]
