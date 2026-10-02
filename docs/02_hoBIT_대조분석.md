@@ -4,7 +4,6 @@ title: "hoBIT 대조 분석"
 permalink: /hobit-comparison/
 nav_order: 2
 ---
-
 # hoBIT/proFILL 대조 분석 — 우리는 무엇을 더 하는가
 
 - 작성일: 2026-10-02 / 작성: 신기훈

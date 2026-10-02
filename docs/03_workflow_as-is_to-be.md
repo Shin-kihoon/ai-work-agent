@@ -4,7 +4,6 @@ title: "AI 적용 전/후 Workflow"
 permalink: /workflow/
 nav_order: 3
 ---
-
 # Workflow 정의 — AI 적용 전(as-is) / 적용 후(to-be)
 
 - 작성일: 2026-10-02 / 작성: 신기훈

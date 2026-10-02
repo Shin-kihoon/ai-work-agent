@@ -42,6 +42,7 @@ SNU 빅데이터 핀테크 AI 13기 · Category G · 한준 · 기훈 · 현선
 | [05. 직원 보조형 에이전트]({{ site.baseurl }}/staff-agent/) | HITL / AI2L, 화면 요구 8개 |
 | [06. 사용자 정의]({{ site.baseurl }}/user-definition/) | 사용자 = 직원 확정에 따른 변경점 |
 | [07. 시스템 뼈대]({{ site.baseurl }}/skeleton/) | **설계 결정 15개와 각각의 출처** |
+| [08. 대상 학과 확정]({{ site.baseurl }}/target-department/) | **이화여대 컴퓨터공학** — 2024 학제개편 발견 |
 | [00. 원시 서베이]({{ site.baseurl }}/survey-raw/) | 최초 조사 기록 |
 
 ---
