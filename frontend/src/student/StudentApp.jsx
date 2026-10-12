@@ -77,7 +77,7 @@ function Status({ status }) {
   );
 }
 
-export default function StudentApp() {
+export default function StudentApp({ onAuthChange } = {}) {
   const [user, setUser] = useState(null),
     [authLoading, setAuthLoading] = useState(true),
     [loginOpen, setLoginOpen] = useState(false),
@@ -166,6 +166,7 @@ export default function StudentApp() {
     try {
       const u = await post("/auth/login", login);
       setUser(u);
+      onAuthChange?.(u);
       setLoginOpen(false);
       setLogin({ username: "", password: "" });
       if (u.role !== "student")
@@ -181,6 +182,7 @@ export default function StudentApp() {
     try {
       await post("/auth/logout", {});
       setUser(null);
+      onAuthChange?.(null);
       setItems([]);
       setSelected(null);
     } catch (e) {
